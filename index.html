@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Mathéo Villière</title>
+
+</head>
+
+<body>
+
+    <div id="somediv"></div>
+    
+    <div  class="ecran">
+        
+        <div class="carte" data-tilt data-tilt data-tilt-scale="1.1">
+            <div class="matrix">
+              <div class="level2">
+                 <img class="profile" src="images/Mathéo.png">
+                 <h2>Mathéo Villière</h2>
+                 <p class="métier">Etudiant</p>
+                 <div class="wrapper">
+                      <a class="button1" href="villierematheo-cv.pdf" target="_blank" class="bouton">Curriculum Vitae</a>
+                 </div>
+                  <div class="wrapper">
+                      <a class="button2" href="MathéoVillière-dossierpersonnel.pdf" target="_blank" class="bouton">Dossier Personnel</a>
+                  </div>
+                 <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                     <defs>
+                          <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                              <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                          </filter>
+                     </defs>
+                 </svg>
+             </div>
+            </div>
+        </div>
+
+        <div class="cursor"></div>
+        
+    </div>
+
+   <script src="app.js"></script>
+   <script src="vanilla-tilt.js"></script>
+   <script src="mobilemouse.js"></script>
+
+</body>
+</html>
